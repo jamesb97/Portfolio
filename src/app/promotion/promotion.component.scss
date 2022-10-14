@@ -1,0 +1,42 @@
+.container {
+  background-image: url("../../assets/images/bg-image2.jpeg");
+}
+
+.skills-container {
+  width: 80vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+    color: #8867ac;
+  }
+  .grid {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    @media (min-width: 430px) {
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (min-width: 992px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    mat-card-subtitle {
+      margin-top: 10px;
+      font-size: 2.5rem;
+    }
+  }
+  .matcard {
+    max-width: 200px;
+    text-align: center;
+    h3 {
+      font-size: 15px;
+    }
+  }
+}
