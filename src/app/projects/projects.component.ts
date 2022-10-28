@@ -66,4 +66,9 @@ export class ProjectsComponent implements OnInit {
   Card11text =
     'React Native Document & PDF Scanner with React, Android Studio, OpenCV, and the react-native-document-scanner API.';
   Card11link = 'https://github.com/jamesb97/PDFScanner';
+
+  Card12title = 'Beach Resort';
+  Card12text =
+    'Online Room Reservations for popular tourist attractions with mutliple room selections and view options. Created with React.';
+  Card12link = 'https://reactbeachresort17.netlify.app/';
 }
