@@ -10,6 +10,7 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {}
   Blog = 'Blog';
+  BlogLink = 'https://techblog-e0db2.web.app/';
   Projects = 'Projects';
   About = 'About';
   Contact = 'Contact';
