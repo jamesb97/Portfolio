@@ -16,5 +16,5 @@ export class HeaderComponent implements OnInit {
   Headline3 = 'Front-End Development';
   Headline4 = 'Backend-Development, Cloud Computing & AI.';
   MyJourney = 'My Journey';
-  MyJourneyLink = 'https://my-journey1371.netlify.app/';
+  MyJourneyLink = 'https://vueautosave.web.app/';
 }
