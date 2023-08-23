@@ -12,7 +12,7 @@ export class FooterComponent implements OnInit {
   title = 'Contact';
   contactSubheading = "Let's create your next experience together";
   connectWithMe = 'CONNECT WITH ME';
-  contactEmail = 'zdravko6t5@gmail.com';
+  contactEmail = 'rebrand.ly/5qcaxio';
   Telegram = 'https://t.me/zdravko6t5';
   TelegramImg =
     'https://firebasestorage.googleapis.com/v0/b/angularportfolio-71eaa.appspot.com/o/2111710.png?alt=media&token=897495cb-516b-4841-a8c8-1e41614baed4';
