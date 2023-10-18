@@ -22,9 +22,9 @@ export class FooterComponent implements OnInit {
   LinkedIn = 'https://www.linkedin.com/in/zdravkobozhkov/';
   LinkedInImg =
     'https://firebasestorage.googleapis.com/v0/b/angularportfolio-71eaa.appspot.com/o/1384014.png?alt=media&token=30e3d1ab-a81d-4ce5-9b5f-3d3ecfc660d8';
-  Twitter = 'https://twitter.com/zdravko6t5/';
+  Twitter = 'https://twitter.com/x6t517902/';
   TwitterImg =
-    'https://firebasestorage.googleapis.com/v0/b/angularportfolio-71eaa.appspot.com/o/2168336.png?alt=media&token=64268e5a-2bd5-4893-b1b4-f687af3635f3';
+    'https://firebasestorage.googleapis.com/v0/b/angularportfolio-71eaa.appspot.com/o/twitter.png?alt=media&token=7c213e11-78b4-4dd5-81ed-da645f27fff7';
   Instagram = 'https://instagram.com/zbozhkov/';
   InstagramImg =
     'https://firebasestorage.googleapis.com/v0/b/angularportfolio-71eaa.appspot.com/o/3670274.png?alt=media&token=3b2c6d04-01e9-4aea-bc79-d6b5c5a6eff3';
