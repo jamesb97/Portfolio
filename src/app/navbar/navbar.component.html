@@ -16,5 +16,28 @@
         </a>
       </div>
     </div>
+    <section class="side-nav">
+      <a class="name" href="/" (click)="(ToHome)">{{ title }}</a>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li>
+          <a href="#work">{{ Projects }}</a>
+        </li>
+        <li>
+          <a href="#about">{{ About }}</a>
+        </li>
+        <li>
+          <a href="#contact">{{ Contact }}</a>
+        </li>
+        <li>
+          <a href="{{ BlogLink }}" target="_blank" rel="noopener noreferrer">{{
+            Blog
+          }}</a>
+        </li>
+      </ul>
+    </section>
   </div>
 </div>

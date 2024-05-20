@@ -3,7 +3,10 @@
     <div class="footer-container">
       <h1>{{ title }}</h1>
       <h2>{{ contactSubheading }}</h2>
-      <a class="primary-btn" href="{{ contactEmail }}?subject=subject&body=body"
+      <a
+        class="primary-btn"
+        href="{{ contactEmail }}?subject=subject&body=body"
+        href="mailto:https://app.sendgrid.com/d-9fdd448e672f4339a77187fe96008bec"
         ><script>
           const sgMail = require("@sengrid/mail");
           setApiKey(process.env["SENDGRID_API_KEY"]);

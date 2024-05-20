@@ -23,16 +23,22 @@
     line-height: 20px;
     color: white;
     @media (min-width: 267px) {
-      display: 8px;
+      font-size: 14px;
+    }
+    @media (min-width: 400px) {
+      font-size: 15px;
+      color: #000000;
     }
     @media (min-width: 430px) {
-      font-size: 8px;
+      font-size: 16px;
     }
     @media (min-width: 768px) {
-      font-size: 12px;
+      font-size: 18px;
+      color: aliceblue;
     }
     @media (min-width: 992px) {
       font-size: 1.2rem;
+      color: aliceblue;
     }
   }
   .email-link {

@@ -13,9 +13,11 @@ export class PromotionComponent implements OnInit {
   title = 'Achievements';
   opensource = '20+';
   opensourcedesc = 'Open Source Projects';
-  firstplace = '1st place';
+  firstplace = '1st';
+  firstplace2 = 'place';
   firstplacedesc = 'Fall 2020 C-Day Winner';
-  secondplace = '2nd place';
+  secondplace = '2nd';
+  secondplace2 = 'place';
   secondplacedesc = '2018 CCSE Hackathon Winner';
   certificates = '5+';
   certificatesdesc = 'Course Certificates';
