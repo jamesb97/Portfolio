@@ -25,7 +25,7 @@ export class FooterComponent implements OnInit {
   Twitter = 'https://twitter.com/x6t517902/';
   TwitterImg =
     'https://firebasestorage.googleapis.com/v0/b/angularportfolio-71eaa.appspot.com/o/twitter.png?alt=media&token=7c213e11-78b4-4dd5-81ed-da645f27fff7';
-  Instagram = 'https://instagram.com/zbozhkov/';
+  Instagram = 'https://instagram.com/zibozhkov/';
   InstagramImg =
     'https://firebasestorage.googleapis.com/v0/b/angularportfolio-71eaa.appspot.com/o/3670274.png?alt=media&token=3b2c6d04-01e9-4aea-bc79-d6b5c5a6eff3';
 
