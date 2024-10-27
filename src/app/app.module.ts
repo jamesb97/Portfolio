@@ -18,6 +18,8 @@ import { FooterComponent } from './footer/footer.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LoadingInterceptor } from './loading.interceptor';
+import { DarkModeComponent } from './dark-mode/dark-mode.component';
+import { ToggleComponent } from './toggle/toggle.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { LoadingInterceptor } from './loading.interceptor';
     FooterComponent,
     routingComponents,
     SpinnerComponent,
+    DarkModeComponent,
+    ToggleComponent,
   ],
   imports: [
     BrowserModule,
