@@ -1,0 +1,48 @@
+@use "@angular/material" as mat;
+@include mat.core();
+@include mat.all-component-themes(themes.$dark-theme);
+
+body {
+  background-color: #333; // Default to dark theme background
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    @include mat.all-component-colors(themes.$light-theme);
+  }
+  body {
+    background-color: #f4f4f4; // Light theme background
+  }
+}
+
+$my-site-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $my-site-primary,
+      accent: $my-site-accent,
+      warn: $my-site-warn,
+    ),
+  )
+);
+
+// Light theme configuration
+$light-theme: mat.define-theme(
+  (
+    color: (
+      theme-type: light,
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
+    ),
+  )
+);
+
+// Dark theme configuration
+$dark-theme: mat.define-theme(
+  (
+    color: (
+      theme-type: dark,
+      primary: mat.$magenta-palette,
+      tertiary: mat.$violet-palette,
+    ),
+  )
+);
