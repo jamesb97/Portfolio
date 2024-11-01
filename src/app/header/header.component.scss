@@ -79,3 +79,18 @@
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  h1 {
+    color: #3391ff;
+    -webkit-text-fill-color: #3391ff !important;
+  }
+  h2 {
+    color: #9274b3;
+    -webkit-text-fill-color: #9274b3 !important;
+  }
+  p {
+    color: #9274b3;
+    -webkit-text-fill-color: #9274b3 !important;
+  }
+}
